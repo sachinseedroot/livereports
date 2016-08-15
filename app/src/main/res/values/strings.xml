@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Live Reports</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="fa_home">&#xf015;</string>
+    <string name="fa_news">&#xf1ea;</string>
+    <string name="fa_gallery">&#xf03e;</string>
+    <string name="fa_uni">&#xf19c;</string>
+    <string name="fa_video">&#xf03d;</string>
+    <string name="fa_ask">&#xf0ae;</string>
+    <string name="apikey">blt177c93e1d7d63982</string>
+    <string name="logout" >&#xf08b;</string>
+
+    <string name="calendar">&#xf073;</string>
+    <string name="sendp">&#xf1d9;</string>
+    <string name="backarrow">&#xf104;</string>
+    <string name="rightcheck">&#xf058;</string>
+
+</resources>

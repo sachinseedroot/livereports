@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/splash"
+    android:id="@+id/parentsplash"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Attendance System"
+        android:layout_marginLeft="37dp"
+        android:textSize="12pt"
+        android:layout_marginStart="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/editText" />
+    <View
+        android:layout_width="210dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:textSize="20pt"-->
+        <!--android:layout_height="wrap_content" android:text="Duniya"-->
+        <!--android:layout_below="@+id/editText"-->
+        <!--android:textColor="@color/colorAccent"-->
+        <!--android:layout_alignLeft="@+id/editText"-->
+        <!--android:layout_alignStart="@+id/editText"-->
+        <!--android:id="@+id/textView4" />-->
+<ImageView
+    android:layout_width="90pt"
+    android:src="@drawable/splash"
+    android:layout_height="110pt"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+</RelativeLayout>

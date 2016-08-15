@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentattendance"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="65dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backarrow"
+        android:textSize="17pt"
+        android:id="@+id/backatt"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15pt"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance"
+        android:textSize="10pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/headertext"
+        android:layout_centerInParent="true"
+        />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Refresh"-->
+        <!--android:textSize="10pt"-->
+        <!--android:textColor="@color/colorPrimaryDark"-->
+        <!--android:id="@+id/refreshbtn"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="15pt"/>-->
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_marginTop="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Spinner
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:id="@+id/ddpmonth"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp" />
+</RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView" />
+</LinearLayout>

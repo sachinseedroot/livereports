@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+     android:theme="@style/ThemeOverlay.AppCompat.Dark">
+<RelativeLayout
+    android:id="@+id/img"
+    android:layout_marginTop="70dp"
+    android:layout_alignParentTop="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/loginimageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/userplac"
+         />
+
+<!--</RelativeLayout>-->
+
+    <!--<RelativeLayout android:id="@+id/rel1"-->
+        <!--android:layout_below="@+id/img"-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Rahim Narsingdani"-->
+            <!--android:id="@+id/loginname"-->
+            <!--android:textSize="11pt"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:layout_alignParentTop="true"-->
+           <!--/>-->
+
+        <!--<TextView-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:id="@+id/loginid"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="9pt"-->
+            <!--android:text="Id: YMC908"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:layout_below="@+id/loginname"-->
+           <!--/>-->
+    <!--</RelativeLayout>.-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_below="@+id/rel1"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<TextView-->
+                    <!--android:layout_marginTop="15dp" android:layout_marginLeft="15dp"-->
+                    <!--android:layout_width="wrap_content" android:textColor="@android:color/darker_gray"-->
+                    <!--android:layout_height="wrap_content" android:text="General"/>-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/generalprofile"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_home"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/textView2"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/ihome" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"  android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Home"-->
+                    <!--android:id="@+id/textView2"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/ihome"-->
+                    <!--android:layout_toEndOf="@+id/ihome"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/newrel"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_news"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/textView22"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/inews" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"  android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="News"-->
+                    <!--android:id="@+id/textView22"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/inews"-->
+                    <!--android:layout_toEndOf="@+id/inews"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_gallery"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/textView23"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/icircular" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"  android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Circular"-->
+                    <!--android:id="@+id/textView23"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/icircular"-->
+                    <!--android:layout_toEndOf="@+id/icircular"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_uni"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/textView24"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/iapply" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"  android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Apply"-->
+                    <!--android:id="@+id/textView24"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/iapply"-->
+                    <!--android:layout_toEndOf="@+id/iapply"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<TextView-->
+                    <!--android:layout_marginTop="15dp" android:layout_marginLeft="15dp"-->
+                    <!--android:layout_width="wrap_content" android:textColor="@android:color/darker_gray"-->
+                    <!--android:layout_height="wrap_content" android:text="Manage"/>-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/relattendence"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_home"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/textView2"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/iattendance" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"  android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Attendance"-->
+                    <!--android:id="@+id/textView2"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/iattendance"-->
+                    <!--android:layout_toEndOf="@+id/iattendance"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/feesrel"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_news"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/feestv"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/ifees" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"  android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Fees"-->
+                    <!--android:id="@+id/feestv"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/ifees"-->
+                    <!--android:layout_toEndOf="@+id/ifees"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/accountrel"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_gallery"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/accounttv"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/iaccount" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"  android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Your Account"-->
+                    <!--android:id="@+id/accounttv"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/iaccount"-->
+                    <!--android:layout_toEndOf="@+id/iaccount"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_uni"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/textView24"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/irecords" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"  android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Records"-->
+                    <!--android:id="@+id/textView24"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/irecords"-->
+                    <!--android:layout_toEndOf="@+id/irecords"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>  <RelativeLayout-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<TextView-->
+                <!--android:layout_marginTop="15dp" android:layout_marginLeft="15dp"-->
+                <!--android:layout_width="wrap_content" android:textColor="@android:color/darker_gray"-->
+                <!--android:layout_height="wrap_content" android:text="Extras"/>-->
+        <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:visibility="gone"-->
+                <!--android:id="@+id/btnhome"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_home"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/textView2"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/ilibrary" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Library"-->
+                    <!--android:id="@+id/textView2"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/ilibrary"-->
+                    <!--android:layout_toEndOf="@+id/ilibrary"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:visibility="gone"-->
+                <!--android:id="@+id/reltimetable"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_news"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/textView22"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/itt" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Time Table"-->
+                    <!--android:id="@+id/textView22"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/itt"-->
+                    <!--android:layout_toEndOf="@+id/itt"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:visibility="gone"-->
+                <!--android:id="@+id/relgallery"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_gallery"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/textView23"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/isettings" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"  android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Settings"-->
+                    <!--android:id="@+id/textView23"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/isettings"-->
+                    <!--android:layout_toEndOf="@+id/isettings"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:visibility="gone"-->
+                <!--android:id="@+id/relasktheexpert"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_ask"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/textView23"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/isettings" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"  android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Ask the Expert"-->
+                    <!--android:id="@+id/textView23"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/isettings"-->
+                    <!--android:layout_toEndOf="@+id/isettings"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="60dp">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content" android:textColor="@color/colorPrimary"-->
+                    <!--android:layout_height="wrap_content" android:text="@string/fa_video"-->
+                    <!--android:layout_marginLeft="36dp"-->
+                    <!--android:layout_marginStart="36dp"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_alignTop="@+id/textView23"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/isettings" />-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"  android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:layout_height="wrap_content" android:text="Video Tutorials"-->
+                    <!--android:id="@+id/textView23"-->
+                    <!--android:textSize="9pt"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/isettings"-->
+                    <!--android:layout_toEndOf="@+id/isettings"-->
+                    <!--android:layout_marginLeft="38dp"-->
+                    <!--android:layout_marginStart="38dp" />-->
+            <!--</RelativeLayout>-->
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+
+
+</RelativeLayout>

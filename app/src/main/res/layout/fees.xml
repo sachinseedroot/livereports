@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/primary_light"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fees Details"
+        android:textSize="10pt"
+        android:layout_marginTop="70dp"
+        android:id="@+id/headertextatT"
+        android:gravity="center"
+        />
+    <RelativeLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/ddpfeesyear"
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp" android:background="@drawable/roundcorners"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Spinner
+            android:id="@+id/ddpfeessemester"
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp" android:background="@drawable/roundcorners"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/roundercornerbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+
+            android:layout_centerInParent="true"
+
+            android:layout_width="wrap_content" android:textColor="@android:color/white" android:text="View Fees"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEES"
+                android:layout_centerInParent="true"
+                android:textSize="10pt"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

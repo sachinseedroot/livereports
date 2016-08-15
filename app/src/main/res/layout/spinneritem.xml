@@ -1,0 +1,9 @@
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/monthName"
+    android:textSize="12pt"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:layout_centerInParent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
